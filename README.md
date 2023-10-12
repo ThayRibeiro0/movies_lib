@@ -15,6 +15,17 @@ cd movies_lib
 ### `npm install react-icons react-router-dom ` 
 ### `npm run dev`
 
+NECESSARY TO PRACTICE -> CREATE AN API, THEN CREATE AN ACCOUNT AND PUT YOUR INFORMATION TO REQUEST A KEY TO USE IN THE APP AND HERE IT IS THE WEBSITE WHERE YOU CAN DO IT: 
+
+### `https://developer.themoviedb.org/docs`
+
+CREATE A FILE CALL .env AND ADD INSIDE THIS CONFIGURATION WITH THE KEY THAT YOU CREATED(EXAMPLE - > VITE_API_KEY=api_key=*****here*****):
+
+VITE_API_KEY=api_key=
+VITE_API=https://api.themoviedb.org/3/movie/
+VITE_SEARCH=https://api.themoviedb.org/3/search/movie
+VITE_IMG=https://image.tmdb.org/t/p/w500/
+
 # Project from Matheus Battisti - Hora de Codar - "Time to Code" - Youtube (React Course)
 
 ## Description
