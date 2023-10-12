@@ -21,14 +21,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div className="container">
-            <h2 className="title">Best Movies:</h2>
-            <div className="movies-container">
-            {topMovies.length === 0 && <p>LOADING...</p>} 
-            {topMovies.length > 0 && topMovies.map((movie) => <MovieCard key={movie.id} movie={movie}/>
-            )}
-            </div>
-        </div>
+        <div>hi</div>
     )
 }
 
